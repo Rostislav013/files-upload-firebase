@@ -1,6 +1,7 @@
 
 .App {
   margin-top: 100px;
+  text-align: center;
 }
 
 .upload {
@@ -10,4 +11,23 @@
   padding: 10px; 
   border-radius: 4px; 
   cursor: pointer;
+  
+}
+
+
+.img-frame {
+  margin: 15px;
+  height: 200px;
+  width: auto;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  
 }

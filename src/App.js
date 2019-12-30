@@ -150,7 +150,7 @@ class App extends Component {
       image: filename,
       progress: 100
     })
-    //this.handleGetImages()
+    this.handleGetImages()
    
 
  /*    firebase.storage().ref('Images').child(filename).getDownloadURL()
@@ -191,7 +191,7 @@ class App extends Component {
          
         <ul>
           {this.state.listImg ? this.state.listImg.map(item => (
-            <li key={item}><a href={item}><img src={item}/></a></li>
+            <li key={item}><a href={item}><img className="img-frame" src={item}/></a></li>
           )) : 'mdaaaa'}
         </ul>
         {/* this.state.image && <img src={this.state.imageURL} />*/ }
